@@ -5,21 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(58, 58, 58);
 }
 
 .pokemon {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: 1 1 auto;
   min-width: 25%;
   margin: 10px 10px;
   border: 1px gray solid;
-  border-radius: 10px;
+  border-radius: 8px;
+  background-color: white;
 }
 
 .pokedex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 10px 10px;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: rgb(241, 241, 145);
+  font-weight: bolder;
+  margin-top: 0;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: blue;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px 12px;
+  border: 2px solid rgb(86, 86, 253);
+  border-radius: 5px;
+  background-color: rgb(241, 241, 145);
+}
+
+img {
+  width: 150px;
+  height: 150px;
 }
